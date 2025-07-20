@@ -6,17 +6,6 @@ body {
   color: #333333;
 }
 
-header {
-  background: url('/hero.jpg') center/cover no-repeat;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-
 nav {
   background-color: rgba(0, 0, 0, 0.85);
   position: sticky;
