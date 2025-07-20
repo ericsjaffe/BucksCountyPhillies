@@ -264,13 +264,28 @@ export default function App() {
 </section>
 
 
-      <section id="gallery">
-        <h2 style={{ color: "#7BAFD4" }}>Gallery</h2>
-        <p>
-          Upload images to /public and integrate a real gallery here using
-          Lightbox or Swiper.
-        </p>
-      </section>
+     <section id="gallery">
+  <h2 style={{ color: "#7BAFD4" }}>Gallery</h2>
+  <p>Click below to view our full photo gallery hosted on Amazon Photos.</p>
+  <a
+    href="https://www.amazon.com/photos/shared/NwIy-6hERR2a46AVv9UxZA.JcrB7l7xa4ErUXvliUAbSc"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#7BAFD4",
+      color: "#fff",
+      padding: "12px 20px",
+      borderRadius: "8px",
+      textDecoration: "none",
+      fontWeight: "bold",
+      marginTop: "1rem"
+    }}
+  >
+    View Full Gallery
+  </a>
+</section>
+
 
       <section id="contact">
         <h2 style={{ color: "#7BAFD4" }}>Contact & Sponsorship</h2>
