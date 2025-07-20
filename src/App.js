@@ -154,7 +154,7 @@ export default function App() {
         <td>Charlie</td>
         <td>Lees</td>
         <td>2029</td>
-        <td>TBD</td>
+        <td>INF / RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -163,9 +163,9 @@ export default function App() {
         <td>Jax</td>
         <td>Leidy</td>
         <td>2029</td>
-        <td>TBD</td>
-        <td>Right</td>
-        <td>Right</td>
+        <td>OF/LHP</td>
+        <td>Left</td>
+        <td>left</td>
       </tr>
       <tr>
         <td>#5</td>
@@ -181,16 +181,16 @@ export default function App() {
         <td>Jake</td>
         <td>Schafer</td>
         <td>2029</td>
-        <td>TBD</td>
+        <td>OF/LHP</td>
         <td>Left</td>
-        <td>Right</td>
+        <td>Left</td>
       </tr>
       <tr>
         <td>#9</td>
         <td>Nate</td>
         <td>Williams</td>
         <td>2029</td>
-        <td>TBD</td>
+        <td>INF/RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -199,7 +199,7 @@ export default function App() {
         <td>Brendan</td>
         <td>Corson</td>
         <td>2029</td>
-        <td>P</td>
+        <td>INF/RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -208,7 +208,7 @@ export default function App() {
         <td>Peyton</td>
         <td>Jaffe</td>
         <td>2029</td>
-        <td>OF/P</td>
+        <td>1B/RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -217,7 +217,7 @@ export default function App() {
         <td>Sammy</td>
         <td>Kallen</td>
         <td>2029</td>
-        <td>TBD</td>
+        <td>INF/RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -226,7 +226,7 @@ export default function App() {
         <td>Michael</td>
         <td>Walker</td>
         <td>2028</td>
-        <td>P</td>
+        <td>OF/RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -235,16 +235,16 @@ export default function App() {
         <td>Lucas</td>
         <td>Perry</td>
         <td>2030</td>
-        <td>TBD</td>
+        <td>INF/RHP</td>
         <td>Left</td>
-        <td>Left</td>
+        <td>Right</td>
       </tr>
       <tr>
         <td>#24</td>
         <td>Evan</td>
         <td>Hutchison</td>
         <td>2029</td>
-        <td>IF</td>
+        <td>IF/RHP</td>
         <td>Right</td>
         <td>Right</td>
       </tr>
@@ -253,8 +253,8 @@ export default function App() {
         <td>Sammy</td>
         <td>Flansburg</td>
         <td>2029</td>
-        <td>TBD</td>
-        <td>Left</td>
+        <td>OF/C/RHP</td>
+        <td>Right</td>
         <td>Right</td>
       </tr>
     </tbody>
