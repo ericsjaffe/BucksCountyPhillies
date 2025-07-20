@@ -304,7 +304,7 @@ export default function App() {
   <h2 style={{ color: "#7BAFD4" }}>Contact & Sponsorship</h2>
   <p>Coach Eric Jaffe – buckscountyphillies@gmail.com – 215-431-9224</p>
   <form
-    action="https://formspree.io/f/mwkgrnrz"
+    action="https://formspree.io/f/mldlgpvj"
     method="POST"
     style={{ maxWidth: "500px", marginTop: "1rem" }}
   >
