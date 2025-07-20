@@ -332,21 +332,24 @@ export default function App() {
       required
       style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
     ></textarea>
-    <button
-      type="submit"
-      className="cta-button"
-      style={{
-        backgroundColor: "#800000",
-        color: "#fff",
-        padding: "10px 20px",
-        border: "none",
-        borderRadius: "6px",
-        cursor: "pointer",
-        fontWeight: "bold"
-      }}
-    >
-      Send Message
-    </button>
+    
+<button
+  type="submit"
+  className="cta-button"
+  style={{
+    backgroundColor: "#7BAFD4", // Carolina Blue
+    color: "#fff",
+    padding: "10px 20px",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+    fontWeight: "bold"
+  }}
+>
+  Send Message
+</button>
+
+      
   </form>
 </section>
 
