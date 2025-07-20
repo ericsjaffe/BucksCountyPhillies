@@ -11,7 +11,18 @@ export default function App() {
         <a href="#contact">Contact</a>
       </nav>
 
-      <header>
+      <header
+        style={{
+          background: `url(${process.env.PUBLIC_URL + '/hero.jpg'}) center/cover no-repeat`,
+          height: '80vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          textAlign: 'center',
+          color: 'white',
+        }}
+      >
         <h1 className="text-5xl font-bold">Bucks County Phillies</h1>
         <p className="text-xl">Building the Future of Baseball</p>
         <a href="#contact" className="cta-button">Join the Team</a>
