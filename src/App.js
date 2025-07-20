@@ -50,15 +50,15 @@ export default function App() {
         <p>
 
           The Bucks County Phillies are a premier 15U travel baseball program based in Bucks County, Pennsylvania. 
-          We are built on a foundation of player development, competitive excellence, and team-first culture. <BR>  
+          We are built on a foundation of player development, competitive excellence, and team-first culture. <br />  
           Our mission is to provide young athletes with the skills, discipline, and mindset they need to succeed both on and off the
           field. Through elite coaching, structured practices, and exposure to top-tier competition, our players grow as athletes,
-          leaders, and teammates. <BR>
+          leaders, and teammates. <br />
           We compete in high-level tournaments, the USABL Fall League, and regularly train with professional instructors for speed, 
           strength, and agility. We prepare our players to excel in high school baseball and beyond, while teaching accountability, 
-          hustle, and respect for the game.   <BR>
+          hustle, and respect for the game.   <br />
           Whether it’s hitting the cage at practice, competing on game day, or supporting each 
-          other as a team — the Bucks County Phillies are more than a team — we’re a baseball family.
+          other as a team — the Bucks County Phillies are more than a team — we’re a baseball family. <br />
           
         </p>
       </section>
