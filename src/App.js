@@ -384,13 +384,6 @@ export default function App() {
   </div>
 </section>
 
-
-<footer style={{
-  textAlign: "center",
-  padding: "1.5rem 0",
-  fontSize: "0.9rem",
-  color: "#555"
-}}>
   © 2025 Bucks County Phillies Baseball.  All Rights Reserved
 </footer>
     </>
