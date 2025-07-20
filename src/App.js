@@ -1,3 +1,4 @@
+// Insert this once at the top of your file if using React 18+
 import React from 'react';
 
 export default function App() {
@@ -46,7 +47,7 @@ export default function App() {
       </header>
 
       <section id="about">
-        <h2>About Us</h2>
+        <h2 style={{ color: "#7BAFD4" }}>About Us</h2>
         <p>
           The Bucks County Phillies are a premier 14U travel baseball program based in Bucks County, Pennsylvania.
           We are built on a foundation of player development, competitive excellence, and team-first culture. <br /><br />
@@ -62,7 +63,7 @@ export default function App() {
       </section>
 
       <section id="schedule">
-        <h2>Fall 2025 Schedule</h2>
+        <h2 style={{ color: "#7BAFD4" }}>Fall 2025 Schedule</h2>
         <table style={{ width: "100%", borderCollapse: "collapse" }}>
           <thead>
             <tr style={{ backgroundColor: "#f1f1f1" }}>
@@ -97,7 +98,7 @@ export default function App() {
       </section>
 
       <section id="roster">
-        <h2>Team Roster</h2>
+        <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
         <ul>
           <li>#1 Charlie Lees</li>
           <li>#2 Jax Leidy</li>
@@ -110,13 +111,13 @@ export default function App() {
           <li>#17 Michael Walker</li>
           <li>#21 Lucas Perry</li>
           <li>#24 Evan Hutchison</li>
-         /* <li>#42 Ian Sarni</li> */
+          {/* <li>#42 Ian Sarni</li> */}
           <li>#55 Sammy Flansburg</li>
         </ul>
       </section>
 
       <section id="gallery">
-        <h2>Gallery</h2>
+        <h2 style={{ color: "#7BAFD4" }}>Gallery</h2>
         <p>
           Upload images to /public and integrate a real gallery here using
           Lightbox or Swiper.
@@ -124,7 +125,7 @@ export default function App() {
       </section>
 
       <section id="contact">
-        <h2>Contact & Sponsorship</h2>
+        <h2 style={{ color: "#7BAFD4" }}>Contact & Sponsorship</h2>
         <p>Coach Eric Jaffe – eric.s.jaffe@gmail.com – 215-431-9224</p>
         <form action="https://formspree.io/f/mwkgrnrz" method="POST">
           <input type="text" name="name" placeholder="Your Name" required />
