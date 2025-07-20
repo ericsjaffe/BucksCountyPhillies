@@ -374,17 +374,6 @@ export default function App() {
           <i className="fab fa-instagram" style={{ color: "#7BAFD4", fontSize: "1.5rem" }}></i>
         </a>
       </div>
-      <button style={{
-        backgroundColor: "#800000",
-        color: "#fff",
-        padding: "0.75rem 1.5rem",
-        border: "none",
-        borderRadius: "999px",
-        cursor: "pointer",
-        fontWeight: "bold"
-      }}>
-        MAKE A PAYMENT
-      </button>
     </div>
 
     {/* Main Links */}
