@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bucks-county-phillies
+    env: static
+    staticPublishPath: build
+    buildCommand: npm run build
+    branch: main
