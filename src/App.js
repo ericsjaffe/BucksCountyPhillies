@@ -154,7 +154,7 @@ export default function App() {
     <tbody>
       <tr>
         <td>#1</td>
-        <td><img src={`${process.env.PUBLIC_URL}/players/charlie.jpg`} alt="Charlie Lees" style={{ width: "50px", borderRadius: "4px" }} /></td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/charlie-lees.jpg`} alt="Charlie Lees" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Charlie</td>
         <td>Lees</td>
         <td>2029</td>
