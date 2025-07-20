@@ -319,6 +319,72 @@ export default function App() {
       </section>
 
       <footer className="text-center p-6 text-sm text-gray-600">
+
+              <section style={{ backgroundColor: "#1e1e1e", color: "#fff", padding: "3rem 2rem", fontFamily: "sans-serif" }}>
+  <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", gap: "2rem", maxWidth: "1200px", margin: "0 auto" }}>
+
+    {/* Logo and Social */}
+    <div style={{ flex: "1 1 200px" }}>
+      <img
+        src={process.env.PUBLIC_URL + "/bcp-logo.png"}
+        alt="BCP Logo"
+        style={{ height: "60px", marginBottom: "1rem" }}
+      />
+      <div style={{ display: "flex", gap: "1rem", marginBottom: "1.5rem" }}>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <i className="fab fa-twitter" style={{ color: "#7BAFD4", fontSize: "1.5rem" }}></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer">
+          <i className="fab fa-facebook" style={{ color: "#7BAFD4", fontSize: "1.5rem" }}></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <i className="fab fa-instagram" style={{ color: "#7BAFD4", fontSize: "1.5rem" }}></i>
+        </a>
+      </div>
+      <button style={{
+        backgroundColor: "#800000",
+        color: "#fff",
+        padding: "0.75rem 1.5rem",
+        border: "none",
+        borderRadius: "999px",
+        cursor: "pointer",
+        fontWeight: "bold"
+      }}>
+        MAKE A PAYMENT
+      </button>
+    </div>
+
+    {/* Main Links */}
+    <div style={{ flex: "1 1 200px" }}>
+      <h3 style={{ marginBottom: "1rem", fontWeight: "bold", color: "#7BAFD4" }}>Main Links</h3>
+      <ul style={{ listStyle: "none", padding: 0, lineHeight: "1.8" }}>
+        <li><a href="#about" style={{ color: "#fff", textDecoration: "none" }}>About</a></li>
+        <li><a href="#schedule" style={{ color: "#fff", textDecoration: "none" }}>Schedule</a></li>
+        <li><a href="#roster" style={{ color: "#fff", textDecoration: "none" }}>Roster</a></li>
+        <li><a href="#gallery" style={{ color: "#fff", textDecoration: "none" }}>Gallery</a></li>
+        <li><a href="#contact" style={{ color: "#fff", textDecoration: "none" }}>Contact</a></li>
+      </ul>
+    </div>
+
+    {/* Contact Info */}
+    <div style={{ flex: "1 1 250px" }}>
+      <h3 style={{ marginBottom: "1rem", fontWeight: "bold", color: "#7BAFD4" }}>Contact</h3>
+      <p style={{ marginBottom: "0.5rem" }}>
+        <i className="fas fa-map-marker-alt" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> Morrisville, PA
+      </p>
+      <p style={{ marginBottom: "0.5rem" }}>
+        <i className="fas fa-phone" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> 215-431-9224
+      </p>
+      <p style={{ marginBottom: "0.5rem" }}>
+        <i className="fas fa-envelope" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> 
+        <a href="mailto:eric.s.jaffe@gmail.com" style={{ color: "#fff" }}>eric.s.jaffe@gmail.com</a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+              
         © 2025 Bucks County Phillies Baseball Club
       </footer>
     </>
