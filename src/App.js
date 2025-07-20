@@ -134,23 +134,133 @@ export default function App() {
 </section>
       
 
-      <section id="roster">
-        <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
-        <ul>
-          <li>#1 Charlie Lees</li>
-          <li>#2 Jax Leidy</li>
-          <li>#5 Damian Mancini</li>
-          <li>#8 Jake Schafer</li>
-          <li>#9 Nate Williams</li>
-          <li>#11 Brendan Corson</li>
-          <li>#12 Peyton Jaffe</li>
-          <li>#16 Sammy Kallen</li>
-          <li>#17 Michael Walker</li>
-          <li>#21 Lucas Perry</li>
-          <li>#24 Evan Hutchison</li>
-          <li>#55 Sammy Flansburg</li>
-        </ul>
-      </section>
+     <section id="roster">
+  <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
+  <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "sans-serif" }}>
+    <thead>
+      <tr style={{ backgroundColor: "#7BAFD4", color: "#ffffff" }}>
+        <th style={{ padding: "10px", textAlign: "left" }}>#</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>First Name</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Last Name</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Graduation</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Position</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Hits</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Throws</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>#1</td>
+        <td>Charlie</td>
+        <td>Lees</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#2</td>
+        <td>Jax</td>
+        <td>Leidy</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#5</td>
+        <td>Damian</td>
+        <td>Mancini</td>
+        <td>2028</td>
+        <td>C</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#8</td>
+        <td>Jake</td>
+        <td>Schafer</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Left</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#9</td>
+        <td>Nate</td>
+        <td>Williams</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#11</td>
+        <td>Brendan</td>
+        <td>Corson</td>
+        <td>2028</td>
+        <td>P</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#12</td>
+        <td>Peyton</td>
+        <td>Jaffe</td>
+        <td>2028</td>
+        <td>OF/P</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#16</td>
+        <td>Sammy</td>
+        <td>Kallen</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#17</td>
+        <td>Michael</td>
+        <td>Walker</td>
+        <td>2028</td>
+        <td>P</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#21</td>
+        <td>Lucas</td>
+        <td>Perry</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Left</td>
+        <td>Left</td>
+      </tr>
+      <tr>
+        <td>#24</td>
+        <td>Evan</td>
+        <td>Hutchison</td>
+        <td>2028</td>
+        <td>IF</td>
+        <td>Right</td>
+        <td>Right</td>
+      </tr>
+      <tr>
+        <td>#55</td>
+        <td>Sammy</td>
+        <td>Flansburg</td>
+        <td>2028</td>
+        <td>TBD</td>
+        <td>Left</td>
+        <td>Right</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
 
       <section id="gallery">
         <h2 style={{ color: "#7BAFD4" }}>Gallery</h2>
