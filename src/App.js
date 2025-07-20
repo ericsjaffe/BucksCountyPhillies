@@ -62,13 +62,14 @@ export default function App() {
         </p>
       </section>
 
-<section id="schedule">
+
+            <section id="schedule">
   <h2 style={{ color: "#7BAFD4" }}>Fall 2025 Schedule</h2>
 
   {/* Tournament Schedule Table */}
   <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "3rem" }}>
     <thead>
-      <tr style={{ backgroundColor: "#f1f1f1" }}>
+      <tr style={{ backgroundColor: "#7BAFD4", color: "#ffffff" }}>
         <th style={{ padding: "10px", textAlign: "left" }}>Tournament</th>
         <th style={{ padding: "10px", textAlign: "left" }}>Location</th>
         <th style={{ padding: "10px", textAlign: "left" }}>Dates</th>
@@ -102,7 +103,7 @@ export default function App() {
   <h3 style={{ color: "#7BAFD4", marginBottom: "0.5rem" }}>USABL Fall 2025 Schedule</h3>
   <table style={{ width: "100%", borderCollapse: "collapse" }}>
     <thead>
-      <tr style={{ backgroundColor: "#f1f1f1" }}>
+      <tr style={{ backgroundColor: "#7BAFD4", color: "#ffffff" }}>
         <th style={{ padding: "10px", textAlign: "left" }}>#</th>
         <th style={{ padding: "10px", textAlign: "left" }}>Date</th>
         <th style={{ padding: "10px", textAlign: "left" }}>Opponent</th>
@@ -132,6 +133,7 @@ export default function App() {
     </tbody>
   </table>
 </section>
+
       
 
      <section id="roster">
