@@ -53,15 +53,21 @@ export default function App() {
       <section id="roster">
         <h2>Team Roster</h2>
         <ul>
-          <li>#3 Peyton Jaffe – OF/P</li>
-          <li>#7 Ian Sarni – P/IF</li>
-          <li>#12 Brendan Corson – P</li>
-          <li>#23 Evan Hutchison – IF</li>
-          <li>#14 Michael Walker – P</li>
-          <li>#11 Damian Mancini – C</li>
-          <li>#27 Ashton Ford – OF</li>
-          <li>#9 Dom Fantano – IF</li>
-        </ul>
+        
+          <li>#1 Charlie Lees </li>
+          <li>#2 Jax Leidy </li>
+          <li>#5 Damian Mancini </li>
+          <li>#8 Jake Schafer </li>
+          <li>#9 Nate Williams </li>
+          <li>#11 Brendan Corson </li>
+          <li>#12 Peyton Jaffe </li>
+          <li>#16 Sammy Kallen </li>
+          <li>#17 Michael Walker </li>
+          <li>#21 Lucas Perry </li>
+          <li>#24Evan Hutchison </li>
+          <li>#42 Ian Sarni </li>
+          <li>#55 Sammy Flansburg </li>
+         </ul>
       </section>
 
       <section id="gallery">
