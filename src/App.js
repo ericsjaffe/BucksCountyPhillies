@@ -300,23 +300,56 @@ export default function App() {
 </section>
 
 
-      <section id="contact">
-        <h2 style={{ color: "#7BAFD4" }}>Contact & Sponsorship</h2>
-        <p>Coach Eric Jaffe – eric.s.jaffe@gmail.com – 215-431-9224</p>
-        <form action="https://formspree.io/f/mwkgrnrz" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            rows="4"
-            required
-          ></textarea>
-          <button type="submit" className="cta-button">
-            Send Message
-          </button>
-        </form>
-      </section>
+<section id="contact">
+  <h2 style={{ color: "#7BAFD4" }}>Contact & Sponsorship</h2>
+  <p>Coach Eric Jaffe – buckscountyphillies@gmail.com – 215-431-9224</p>
+  <form
+    action="https://formspree.io/f/mwkgrnrz"
+    method="POST"
+    style={{ maxWidth: "500px", marginTop: "1rem" }}
+  >
+    {/* Optional override to specify recipient */}
+    <input type="hidden" name="_to" value="buckscountyphillies@gmail.com" />
+
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      required
+      style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      required
+      style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+    />
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      rows="4"
+      required
+      style={{ width: "100%", padding: "10px", marginBottom: "10px" }}
+    ></textarea>
+    <button
+      type="submit"
+      className="cta-button"
+      style={{
+        backgroundColor: "#800000",
+        color: "#fff",
+        padding: "10px 20px",
+        border: "none",
+        borderRadius: "6px",
+        cursor: "pointer",
+        fontWeight: "bold"
+      }}
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+
 
       <footer className="text-center p-6 text-sm text-gray-600">
 
