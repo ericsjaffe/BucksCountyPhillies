@@ -136,18 +136,19 @@ export default function App() {
 
       
 
-     <section id="roster">
+ <section id="roster">
   <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
   <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "sans-serif" }}>
     <thead>
       <tr style={{ backgroundColor: "#7BAFD4", color: "#ffffff" }}>
-        <th style={{ padding: "10px", textAlign: "left" }}>#</th>
-        <th style={{ padding: "10px", textAlign: "left" }}>First Name</th>
-        <th style={{ padding: "10px", textAlign: "left" }}>Last Name</th>
-        <th style={{ padding: "10px", textAlign: "left" }}>Graduation</th>
-        <th style={{ padding: "10px", textAlign: "left" }}>Position</th>
-        <th style={{ padding: "10px", textAlign: "left" }}>Hits</th>
-        <th style={{ padding: "10px", textAlign: "left" }}>Throws</th>
+        <th style={{ padding: "10px" }}>#</th>
+        <th style={{ padding: "10px" }}>Photo</th>
+        <th style={{ padding: "10px" }}>First Name</th>
+        <th style={{ padding: "10px" }}>Last Name</th>
+        <th style={{ padding: "10px" }}>Graduation</th>
+        <th style={{ padding: "10px" }}>Position</th>
+        <th style={{ padding: "10px" }}>Hits</th>
+        <th style={{ padding: "10px" }}>Throws</th>
       </tr>
     </thead>
     <tbody>
