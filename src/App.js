@@ -1,59 +1,74 @@
-import React from "react";
+import React from 'react';
 
 export default function App() {
   return (
-    <main className="min-h-screen bg-white text-gray-800">
-      <header className="bg-gradient-to-r from-blue-400 to-red-500 p-6 text-white shadow">
-        <h1 className="text-4xl font-bold">Bucks County Phillies</h1>
-        <p className="text-lg">15U Travel Baseball Team</p>
+    <>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#roster">Roster</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <header>
+        <h1 className="text-5xl font-bold">Bucks County Phillies</h1>
+        <p className="text-xl">Building the Future of Baseball</p>
+        <a href="#contact" className="cta-button">Join the Team</a>
       </header>
 
-      <section className="p-6 grid gap-6 md:grid-cols-2">
-        <div className="border rounded-lg p-4 shadow">
-          <h2 className="text-2xl font-semibold mb-2">About Us</h2>
-          <p>
-            The Bucks County Phillies are a competitive 15U travel baseball team focused on
-            development, discipline, and team culture. Our players train hard, play harder,
-            and support one another on and off the field.
-          </p>
-        </div>
-
-        <div className="border rounded-lg p-4 shadow">
-          <h2 className="text-2xl font-semibold mb-2">Fall Schedule</h2>
-          <ul className="list-disc pl-5 space-y-1">
-            <li>Weekly Practices</li>
-            <li>USABL Fall League – 10 Games</li>
-            <li>4–5 Elite Tournaments</li>
-            <li>Speed & Agility Training</li>
-          </ul>
-        </div>
-
-        <div className="md:col-span-2 border rounded-lg p-4 shadow">
-          <h2 className="text-2xl font-semibold mb-2">Team Roster</h2>
-          <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
-            <li>#3 Peyton Jaffe – OF/P</li>
-            <li>#7 Ian Sarni – P/IF</li>
-            <li>#12 Brendan Corson – P</li>
-            <li>#23 Evan Hutchison – IF</li>
-            <li>#14 Michael Walker – P</li>
-            <li>#11 Damian Mancini – C</li>
-            <li>#27 Ashton Ford – OF</li>
-            <li>#9 Dom Fantano – IF</li>
-          </ul>
-        </div>
-
-        <div className="md:col-span-2 border rounded-lg p-4 text-center shadow">
-          <h2 className="text-2xl font-semibold mb-4">Interested in Sponsoring or Joining?</h2>
-          <p className="mb-4">
-            Contact Coach Eric Jaffe at <a className="text-blue-600" href="mailto:eric.s.jaffe@gmail.com">eric.s.jaffe@gmail.com</a> or 215-431-9224.
-          </p>
-          <button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">Team Tryout Signup</button>
-        </div>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          We are a competitive 15U travel baseball team based in Bucks County, PA.
+          Focused on development, leadership, and teamwork, we compete in top-tier tournaments
+          and leagues throughout the season.
+        </p>
       </section>
 
-      <footer className="bg-gray-100 text-center p-4 mt-6 text-sm text-gray-600">
+      <section id="schedule">
+        <h2>Fall 2025 Schedule</h2>
+        <ul>
+          <li>Weekly Team Practices</li>
+          <li>USABL Fall League – 10 Games</li>
+          <li>4–5 Elite Tournaments</li>
+          <li>Weekly Speed, Strength & Agility Training</li>
+        </ul>
+      </section>
+
+      <section id="roster">
+        <h2>Team Roster</h2>
+        <ul>
+          <li>#3 Peyton Jaffe – OF/P</li>
+          <li>#7 Ian Sarni – P/IF</li>
+          <li>#12 Brendan Corson – P</li>
+          <li>#23 Evan Hutchison – IF</li>
+          <li>#14 Michael Walker – P</li>
+          <li>#11 Damian Mancini – C</li>
+          <li>#27 Ashton Ford – OF</li>
+          <li>#9 Dom Fantano – IF</li>
+        </ul>
+      </section>
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Upload images to /public and integrate a real gallery here using Lightbox or Swiper.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact & Sponsorship</h2>
+        <p>Coach Eric Jaffe – eric.s.jaffe@gmail.com – 215-431-9224</p>
+        <form action="https://formspree.io/f/mwkgrnrz" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit" className="cta-button">Send Message</button>
+        </form>
+      </section>
+
+      <footer className="text-center p-6 text-sm text-gray-600">
         © 2025 Bucks County Phillies Baseball Club
       </footer>
-    </main>
+    </>
   );
 }
