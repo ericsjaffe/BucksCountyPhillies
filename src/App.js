@@ -48,34 +48,62 @@ export default function App() {
       <section id="about">
         <h2>About Us</h2>
         <p>
-
-          The Bucks County Phillies are a premier 14U travel baseball program based in Bucks County, Pennsylvania. 
-          We are built on a foundation of player development, competitive excellence, and team-first culture. <br />
-          <br />
+          The Bucks County Phillies are a premier 14U travel baseball program based in Bucks County, Pennsylvania.
+          We are built on a foundation of player development, competitive excellence, and team-first culture. <br /><br />
           Our mission is to provide young athletes with the skills, discipline, and mindset they need to succeed both on and off the
           field. Through elite coaching, structured practices, and exposure to top-tier competition, our players grow as athletes,
-          leaders, and teammates. 
-          <br />
-          <br />
+          leaders, and teammates. <br /><br />
           We compete in high-level tournaments, the USABL Fall League, and regularly train with professional instructors for speed, 
           strength, and agility. We prepare our players to excel in high school baseball and beyond, while teaching accountability, 
-          hustle, and respect for the game.   
-          <br />  
-          <br />
+          hustle, and respect for the game. <br /><br />
           Whether it’s hitting the cage at practice, competing on game day, or supporting each 
           other as a team — the Bucks County Phillies are more than a team — we’re a baseball family. <br />
-          
         </p>
       </section>
 
       <section id="schedule">
         <h2>Fall 2025 Schedule</h2>
-        <ul>
-          <li>Weekly Team Practices</li>
-          <li>USABL Fall League – 10 Games</li>
-          <li>4–5 Elite Tournaments</li>
-          <li>Weekly Speed, Strength & Agility Training</li>
-        </ul>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr style={{ backgroundColor: "#f1f1f1" }}>
+              <th style={{ padding: "10px", textAlign: "left" }}>Tournament</th>
+              <th style={{ padding: "10px", textAlign: "left" }}>Location</th>
+              <th style={{ padding: "10px", textAlign: "left" }}>Dates</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style={{ padding: "10px" }}>BCP Labor Day Classic</td>
+              <td style={{ padding: "10px" }}>Morrisville, PA</td>
+              <td style={{ padding: "10px" }}>Aug 28 – Sept 1</td>
+            </tr>
+            <tr>
+              <td style={{ padding: "10px" }}>PG Super25 Central PA Super Qualifier</td>
+              <td style={{ padding: "10px" }}>Pennsylvania</td>
+              <td style={{ padding: "10px" }}>Sept 5 – Sept 7</td>
+            </tr>
+            <tr>
+              <td style={{ padding: "10px" }}>PDC Triple Crown</td>
+              <td style={{ padding: "10px" }}>Yardley, PA</td>
+              <td style={{ padding: "10px" }}>Sept 13 – Sept 14</td>
+            </tr>
+            <tr>
+              <td style={{ padding: "10px" }}>DiamondNation Grand Slam</td>
+              <td style={{ padding: "10px" }}>Flemington, NJ</td>
+              <td style={{ padding: "10px" }}>Sept 26 – Sept 28</td>
+            </tr>
+            <tr>
+              <td style={{ padding: "10px" }}>PG WWBA Northeast Fall Championship</td>
+              <td style={{ padding: "10px" }}>Northeast Region</td>
+              <td style={{ padding: "10px" }}>Oct 3 – Oct 5</td>
+            </tr>
+            <tr>
+              <td style={{ padding: "10px" }}>Big Show HOF Fall Series</td>
+              <td style={{ padding: "10px" }}>Palmyra, PA</td>
+              <td style={{ padding: "10px" }}>Oct 10 – Oct 12</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="roster">
