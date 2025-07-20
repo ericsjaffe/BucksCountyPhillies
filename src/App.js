@@ -79,28 +79,18 @@ export default function App() {
             </tr>
             <tr>
               <td style={{ padding: "10px" }}>PG Super25 Central PA Super Qualifier</td>
-              <td style={{ padding: "10px" }}>Pennsylvania</td>
+              <td style={{ padding: "10px" }}>Palmyra, PA</td>
               <td style={{ padding: "10px" }}>Sept 5 – Sept 7</td>
             </tr>
             <tr>
               <td style={{ padding: "10px" }}>PDC Triple Crown</td>
-              <td style={{ padding: "10px" }}>Yardley, PA</td>
+              <td style={{ padding: "10px" }}>Newtown, PA</td>
               <td style={{ padding: "10px" }}>Sept 13 – Sept 14</td>
-            </tr>
-            <tr>
-              <td style={{ padding: "10px" }}>DiamondNation Grand Slam</td>
-              <td style={{ padding: "10px" }}>Flemington, NJ</td>
-              <td style={{ padding: "10px" }}>Sept 26 – Sept 28</td>
-            </tr>
+            </tr>          
             <tr>
               <td style={{ padding: "10px" }}>PG WWBA Northeast Fall Championship</td>
               <td style={{ padding: "10px" }}>Northeast Region</td>
               <td style={{ padding: "10px" }}>Oct 3 – Oct 5</td>
-            </tr>
-            <tr>
-              <td style={{ padding: "10px" }}>Big Show HOF Fall Series</td>
-              <td style={{ padding: "10px" }}>Palmyra, PA</td>
-              <td style={{ padding: "10px" }}>Oct 10 – Oct 12</td>
             </tr>
           </tbody>
         </table>
