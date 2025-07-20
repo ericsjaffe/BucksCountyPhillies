@@ -174,6 +174,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#5</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/damian-mancini.jpg`} alt="Damian Mancini" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Damian</td>
         <td>Mancini</td>
         <td>2029</td>
@@ -183,6 +184,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#8</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/jake-schafer.jpg`} alt="Jake Schafer" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Jake</td>
         <td>Schafer</td>
         <td>2029</td>
@@ -192,6 +194,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#9</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/nate-williams.jpg`} alt="Nate Williams" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Nate</td>
         <td>Williams</td>
         <td>2029</td>
@@ -201,6 +204,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#11</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/brendan-corson.jpg`} alt="Brendan Corson" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Brendan</td>
         <td>Corson</td>
         <td>2029</td>
@@ -210,6 +214,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#12</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/peyton-jaffe.jpg`} alt="Peyton Jaffe" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Peyton</td>
         <td>Jaffe</td>
         <td>2029</td>
@@ -219,6 +224,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#16</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/sammy-kallen.jpg`} alt="Sammy Kallen" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Sammy</td>
         <td>Kallen</td>
         <td>2029</td>
@@ -228,6 +234,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#17</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/michael-walker.jpg`} alt="Michael Walker" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Michael</td>
         <td>Walker</td>
         <td>2028</td>
@@ -237,6 +244,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#21</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/lucas-perry.jpg`} alt="Lucas Perry" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Lucas</td>
         <td>Perry</td>
         <td>2030</td>
@@ -246,6 +254,7 @@ export default function App() {
       </tr>
       <tr>
         <td>#24</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/evan-hutchison.jpg`} alt="Evan Hutchison" style={{ width: "50px", borderRadius: "4px" }} /></td>
         <td>Evan</td>
         <td>Hutchison</td>
         <td>2029</td>
@@ -255,7 +264,8 @@ export default function App() {
       </tr>
       <tr>
         <td>#55</td>
-        <td>Sammy</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/sammy-flansburg.jpg`} alt="Sammy Flansburg" style={{ width: "50px", borderRadius: "4px" }} /></td>
+        <td>Sam</td>
         <td>Flansburg</td>
         <td>2029</td>
         <td>OF/C/RHP</td>
