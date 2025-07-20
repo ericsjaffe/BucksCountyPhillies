@@ -4,11 +4,14 @@ export default function App() {
   return (
     <>
       <nav>
+
+        <img src={process.env.PUBLIC_URL + "/bcp-logo.png"} alt="BCP Logo" style={{ height: "40px", marginRight: "1rem" }} />
         <a href="#about">About</a>
         <a href="#schedule">Schedule</a>
         <a href="#roster">Roster</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
+    
       </nav>
 
       <header
