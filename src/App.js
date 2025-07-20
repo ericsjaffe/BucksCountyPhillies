@@ -62,40 +62,77 @@ export default function App() {
         </p>
       </section>
 
-      <section id="schedule">
-        <h2 style={{ color: "#7BAFD4" }}>Fall 2025 Schedule</h2>
-        <table style={{ width: "100%", borderCollapse: "collapse" }}>
-          <thead>
-            <tr style={{ backgroundColor: "#f1f1f1" }}>
-              <th style={{ padding: "10px", textAlign: "left" }}>Tournament</th>
-              <th style={{ padding: "10px", textAlign: "left" }}>Location</th>
-              <th style={{ padding: "10px", textAlign: "left" }}>Dates</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style={{ padding: "10px" }}>BCP Labor Day Classic</td>
-              <td style={{ padding: "10px" }}>Morrisville, PA</td>
-              <td style={{ padding: "10px" }}>Aug 28 – Sept 1</td>
-            </tr>
-            <tr>
-              <td style={{ padding: "10px" }}>PG Super25 Central PA Super Qualifier</td>
-              <td style={{ padding: "10px" }}>Palmyra, PA</td>
-              <td style={{ padding: "10px" }}>Sept 5 – Sept 7</td>
-            </tr>
-            <tr>
-              <td style={{ padding: "10px" }}>PDC Triple Crown</td>
-              <td style={{ padding: "10px" }}>Newtown, PA</td>
-              <td style={{ padding: "10px" }}>Sept 13 – Sept 14</td>
-            </tr>          
-            <tr>
-              <td style={{ padding: "10px" }}>PG WWBA Northeast Fall Championship</td>
-              <td style={{ padding: "10px" }}>Northeast Region</td>
-              <td style={{ padding: "10px" }}>Oct 3 – Oct 5</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+<section id="schedule">
+  <h2 style={{ color: "#7BAFD4" }}>Fall 2025 Schedule</h2>
+
+  {/* Tournament Schedule Table */}
+  <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "3rem" }}>
+    <thead>
+      <tr style={{ backgroundColor: "#f1f1f1" }}>
+        <th style={{ padding: "10px", textAlign: "left" }}>Tournament</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Location</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Dates</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style={{ padding: "10px" }}>BCP Labor Day Classic</td>
+        <td style={{ padding: "10px" }}>Morrisville, PA</td>
+        <td style={{ padding: "10px" }}>Aug 28 – Sept 1</td>
+      </tr>
+      <tr>
+        <td style={{ padding: "10px" }}>PG Super25 Central PA Super Qualifier</td>
+        <td style={{ padding: "10px" }}>Palmyra, PA</td>
+        <td style={{ padding: "10px" }}>Sept 5 – Sept 7</td>
+      </tr>
+      <tr>
+        <td style={{ padding: "10px" }}>PDC Triple Crown</td>
+        <td style={{ padding: "10px" }}>Newtown, PA</td>
+        <td style={{ padding: "10px" }}>Sept 13 – Sept 14</td>
+      </tr>
+      <tr>
+        <td style={{ padding: "10px" }}>PG WWBA Northeast Fall Championship</td>
+        <td style={{ padding: "10px" }}>Northeast Region</td>
+        <td style={{ padding: "10px" }}>Oct 3 – Oct 5</td>
+      </tr>
+    </tbody>
+  </table>
+
+  {/* USABL Fall League Schedule Table */}
+  <h3 style={{ color: "#7BAFD4", marginBottom: "0.5rem" }}>USABL Fall 2025 Schedule</h3>
+  <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    <thead>
+      <tr style={{ backgroundColor: "#f1f1f1" }}>
+        <th style={{ padding: "10px", textAlign: "left" }}>#</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Date</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Opponent</th>
+        <th style={{ padding: "10px", textAlign: "left" }}>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      {[
+        "Sept 1",
+        "Sept 8",
+        "Sept 15",
+        "Sept 22",
+        "Sept 29",
+        "Oct 6",
+        "Oct 13",
+        "Oct 20",
+        "Oct 27",
+        "Oct 31"
+      ].map((date, index) => (
+        <tr key={index}>
+          <td style={{ padding: "10px" }}>{index + 1}</td>
+          <td style={{ padding: "10px" }}>Week of {date}</td>
+          <td style={{ padding: "10px" }}>TBD</td>
+          <td style={{ padding: "10px" }}>TBD</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</section>
+      
 
       <section id="roster">
         <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
