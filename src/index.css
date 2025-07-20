@@ -7,20 +7,24 @@ body {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.85);
-  position: sticky;
-  top: 0;
+  background-color: #F1F1F1;
   display: flex;
-  justify-content: center;
-  padding: 1rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem;
   z-index: 100;
+
+}
+
+nav img {
+  height: 40px;
 }
 
 nav a {
-  color: white;
-  margin: 0 1rem;
+color: #7BAFD4;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1rem;
 }
 
 section {
