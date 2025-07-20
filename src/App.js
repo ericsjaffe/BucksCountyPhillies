@@ -120,7 +120,7 @@ export default function App() {
           <li>#17 Michael Walker</li>
           <li>#21 Lucas Perry</li>
           <li>#24 Evan Hutchison</li>
-          <li>#42 Ian Sarni</li>
+         ' <li>#42 Ian Sarni</li>
           <li>#55 Sammy Flansburg</li>
         </ul>
       </section>
