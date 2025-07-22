@@ -91,6 +91,12 @@ export default function App() {
         <td style={{ padding: "10px" }}>Newtown, PA</td>
         <td style={{ padding: "10px" }}>Sept 13 – Sept 14</td>
       </tr>
+     <tr>
+        <td style={{ padding: "10px" }}>USABL Oktoberfest</td>
+        <td style={{ padding: "10px" }}>Central, NJ</td>
+        <td style={{ padding: "10px" }}>Sept 27 – Sept 28</td>
+      </tr>
+    
       <tr>
         <td style={{ padding: "10px" }}>PG WWBA Northeast Fall Championship</td>
         <td style={{ padding: "10px" }}>Northeast Region</td>
