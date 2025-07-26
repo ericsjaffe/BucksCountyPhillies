@@ -413,14 +413,17 @@ export default function App() {
     <div style={{ flex: "1 1 250px" }}>
       <h3 style={{ marginBottom: "1rem", fontWeight: "bold", color: "#7BAFD4" }}>Contact</h3>
       <p style={{ marginBottom: "0.5rem" }}>
-        <i className="fas fa-map-marker-alt" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> Morrisville, PA
-      </p>
+        <i className="fas fa-map-marker-alt" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> Eric Jaffe </p>
+        
+      <p style={{ marginBottom: "0.5rem" }}>
+        <i className="fas fa-map-marker-alt" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> General Manager </p>
+      
       <p style={{ marginBottom: "0.5rem" }}>
         <i className="fas fa-phone" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> 215-431-9224
       </p>
       <p style={{ marginBottom: "0.5rem" }}>
         <i className="fas fa-envelope" style={{ color: "#7BAFD4", marginRight: "0.5rem" }}></i> 
-        <a href="mailto:eric.s.jaffe@gmail.com" style={{ color: "#fff" }}>eric.s.jaffe@gmail.com</a>
+        <a href="mailto:buckscountyphillies@gmail.com" style={{ color: "#fff" }}>buckscountyphillies@gmail.com</a>
       </p>
     </div>
 
