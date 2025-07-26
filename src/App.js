@@ -42,20 +42,20 @@ export default function App() {
           <p className="text-xl">Building the Future of Baseball</p>
 
           <a
-  href="#contact"
-  className="cta-button"
-  style={{
-    backgroundColor: "#7BAFD4", // Carolina Blue
-    color: "#ffffff",
-    padding: "10px 20px",
-    borderRadius: "6px",
-    fontWeight: "bold",
-    textDecoration: "none",
-    display: "inline-block"
-  }}
->
-  Join the Team
-</a>
+            href="#contact"
+            className="cta-button"
+            style={{
+              backgroundColor: "#7BAFD4", // Carolina Blue
+              color: "#ffffff",
+              padding: "10px 20px",
+              borderRadius: "6px",
+              fontWeight: "bold",
+              textDecoration: "none",
+              display: "inline-block"
+            }}
+            >
+            Join the Team
+            </a>
 
           
         </div>
