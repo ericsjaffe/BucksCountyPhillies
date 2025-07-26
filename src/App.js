@@ -235,7 +235,7 @@ export default function App() {
         <td>Kallen</td>
         <td>2029</td>
         <td>INF/RHP</td>
-        <td>Right</td>
+        <td>Left</td>
         <td>Right</td>
       </tr>
       <tr>
@@ -268,6 +268,18 @@ export default function App() {
         <td>Right</td>
         <td>Right</td>
       </tr>
+
+       <tr>
+        <td>#42</td>
+        <td><img src={`${process.env.PUBLIC_URL}/players/ian-sarni.jpg`} alt="Ian Sarni" style={{ width: "50px", borderRadius: "4px" }} /></td>
+        <td>Ian</td>
+        <td>Sarni</td>
+        <td>2029</td>
+        <td>1B/RHP</td>
+        <td>Left</td>
+        <td>Right</td>
+      </tr>
+      
       <tr>
         <td>#55</td>
         <td><img src={`${process.env.PUBLIC_URL}/players/sammy-flansburg.jpg`} alt="Sammy Flansburg" style={{ width: "50px", borderRadius: "4px" }} /></td>
