@@ -40,9 +40,24 @@ export default function App() {
         >
           <h1 className="text-5xl font-bold">Bucks County Phillies</h1>
           <p className="text-xl">Building the Future of Baseball</p>
-          <a href="#contact" className="cta-button">
-            Join the Team
-          </a>
+
+          <a
+  href="#contact"
+  className="cta-button"
+  style={{
+    backgroundColor: "#7BAFD4", // Carolina Blue
+    color: "#ffffff",
+    padding: "10px 20px",
+    borderRadius: "6px",
+    fontWeight: "bold",
+    textDecoration: "none",
+    display: "inline-block"
+  }}
+>
+  Join the Team
+</a>
+
+          
         </div>
       </header>
 
