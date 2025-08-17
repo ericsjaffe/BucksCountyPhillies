@@ -206,11 +206,20 @@ export default function App() {
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
     </tr>
+   
     <tr>
-      <td style={{ padding: "10px" }}>8:00 PM</td>
-      <td style={{ padding: "10px" }}>The Yards At Full Depth Home Run Derby</td>
-      <td style={{ padding: "10px" }}>Event</td>
-    </tr>
+  <td style={{ padding: "10px" }}>8:00 PM</td>
+  <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
+    <img 
+      src={`${process.env.PUBLIC_URL}/logos/yards.png`} 
+      alt="The Yards at Full Depth" 
+      style={{ width: "26px", borderRadius: "4px" }}
+    />
+    The Yards At Full Depth Home Run Derby
+  </td>
+  <td style={{ padding: "10px" }}>Event</td>
+</tr>
+
 
     {/* Saturday */}
     <tr style={{ backgroundColor: "#f8fafc" }}>
