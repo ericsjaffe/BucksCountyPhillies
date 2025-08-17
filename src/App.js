@@ -155,12 +155,7 @@ export default function App() {
     </tbody>
   </table>
 </section>
-
-              
-<section id="#ldc"> 
-
-</sectioon>
-
+      
  <section id="roster">
   <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
   <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "sans-serif" }}>
