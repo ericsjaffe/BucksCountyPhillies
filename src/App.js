@@ -208,7 +208,7 @@ export default function App() {
     </tr>
     <tr>
       <td style={{ padding: "10px" }}>8:00 PM</td>
-      <td style={{ padding: "10px" }}>Home Run Derby</td>
+      <td style={{ padding: "10px" }}>The Yards At Full Depth Home Run Derby</td>
       <td style={{ padding: "10px" }}>Event</td>
     </tr>
 
