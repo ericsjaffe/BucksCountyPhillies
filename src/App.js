@@ -207,15 +207,22 @@ export default function App() {
       <td style={{ padding: "10px" }}>Pool</td>
     </tr>
    
-    <tr>
+   <tr>
   <td style={{ padding: "10px" }}>8:00 PM</td>
   <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
     <img 
-      src={`${process.env.PUBLIC_URL}/logos/yards.jpg`} 
+      src={`${process.env.PUBLIC_URL}/logos/yards.png`} 
       alt="The Yards at Full Depth" 
       style={{ width: "26px", borderRadius: "4px" }}
     />
-    The Yards At Full Depth Home Run Derby
+    <a 
+      href="https://www.fulldepthperformance.com/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      style={{ color: "#000", fontWeight: 600, textDecoration: "none" }}
+    >
+      The Yards At Full Depth Home Run Derby
+    </a>
   </td>
   <td style={{ padding: "10px" }}>Event</td>
 </tr>
