@@ -12,6 +12,7 @@ export default function App() {
         />
         <a href="#about">About</a>
         <a href="#schedule">Schedule</a>
+        <a href="#ldc">Labor Day Classic</a> 
         <a href="#roster">Roster</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
