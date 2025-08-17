@@ -155,6 +155,111 @@ export default function App() {
     </tbody>
   </table>
 </section>
+
+{/* ===== Labor Day Classic — Full Tournament Table ===== */}
+<h3 id="ldc-table" style={{ color: "#7BAFD4", marginTop: "2rem", marginBottom: "0.5rem" }}>
+  Labor Day Classic – Tournament Schedule
+</h3>
+
+<table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "2rem" }}>
+  <thead>
+    <tr style={{ backgroundColor: "#7BAFD4", color: "#ffffff" }}>
+      <th style={{ padding: "10px", textAlign: "left" }}>Day / Date</th>
+      <th style={{ padding: "10px", textAlign: "left" }}>Time</th>
+      <th style={{ padding: "10px", textAlign: "left" }}>Matchup / Event</th>
+      <th style={{ padding: "10px", textAlign: "left" }}>Round</th>
+    </tr>
+  </thead>
+  <tbody>
+    {/* Thursday */}
+    <tr style={{ backgroundColor: "#f8fafc" }}>
+      <td style={{ padding: "10px" }} rowSpan={2}>Thu, Aug 28<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play (No BCP games)</span></td>
+      <td style={{ padding: "10px" }}>6:00 PM</td>
+      <td style={{ padding: "10px" }}>Ghost PA vs. Centercourt Baseball</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8fafc" }}>
+      <td style={{ padding: "10px" }}>8:15 PM</td>
+      <td style={{ padding: "10px" }}>Wild BC vs. New Egypt Warriors</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+
+    {/* Friday */}
+    <tr>
+      <td style={{ padding: "10px" }} rowSpan={2}>Fri, Aug 29<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play</span></td>
+      <td style={{ padding: "10px" }}>6:00 PM</td>
+      <td style={{ padding: "10px" }}>Bucks County Phillies vs. Yardley/Makefield Riversharks</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+    <tr>
+      <td style={{ padding: "10px" }}>8:00 PM</td>
+      <td style={{ padding: "10px" }}>Home Run Derby</td>
+      <td style={{ padding: "10px" }}>Event</td>
+    </tr>
+
+    {/* Saturday */}
+    <tr style={{ backgroundColor: "#f8fafc" }}>
+      <td style={{ padding: "10px" }} rowSpan={4}>Sat, Aug 30<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool (first game 10:00 AM)</span></td>
+      <td style={{ padding: "10px" }}>10:00 AM</td>
+      <td style={{ padding: "10px" }}>Ghost PA vs. Manto PDC</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8fafc" }}>
+      <td style={{ padding: "10px" }}>12:15 PM</td>
+      <td style={{ padding: "10px" }}>Centercourt Baseball vs. Manto PDC</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8fafc" }}>
+      <td style={{ padding: "10px" }}>2:30 PM</td>
+      <td style={{ padding: "10px" }}>Yardley/Makefield Riversharks vs. Wild BC</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8fafc" }}>
+      <td style={{ padding: "10px" }}>4:45 PM</td>
+      <td style={{ padding: "10px" }}>New Egypt Warriors vs. Bucks County Phillies</td>
+      <td style={{ padding: "10px" }}>Pool</td>
+    </tr>
+
+    {/* Sunday */}
+    <tr>
+      <td style={{ padding: "10px" }} rowSpan={6}>Sun, Aug 31<br/><span style={{ fontSize: 12, color: "#64748b" }}>Elimination (first game 9:00 AM)</span></td>
+      <td style={{ padding: "10px" }}>9:00 AM</td>
+      <td style={{ padding: "10px" }}>Quarterfinal A: #2 Seed vs. #7 Seed</td>
+      <td style={{ padding: "10px" }}>Quarterfinal</td>
+    </tr>
+    <tr>
+      <td style={{ padding: "10px" }}>11:15 AM</td>
+      <td style={{ padding: "10px" }}>Quarterfinal B: #3 Seed vs. #6 Seed</td>
+      <td style={{ padding: "10px" }}>Quarterfinal</td>
+    </tr>
+    <tr>
+      <td style={{ padding: "10px" }}>1:30 PM</td>
+      <td style={{ padding: "10px" }}>Quarterfinal C: #4 Seed vs. #5 Seed</td>
+      <td style={{ padding: "10px" }}>Quarterfinal</td>
+    </tr>
+    <tr>
+      <td style={{ padding: "10px" }}>3:45 PM</td>
+      <td style={{ padding: "10px" }}>Semifinal 1: #1 Seed vs. Winner Quarterfinal C</td>
+      <td style={{ padding: "10px" }}>Semifinal</td>
+    </tr>
+    <tr>
+      <td style={{ padding: "10px" }}>6:00 PM</td>
+      <td style={{ padding: "10px" }}>Semifinal 2: Winner QF A vs. Winner QF B</td>
+      <td style={{ padding: "10px" }}>Semifinal</td>
+    </tr>
+    <tr>
+      <td style={{ padding: "10px" }}>8:15 PM</td>
+      <td style={{ padding: "10px" }}>Championship Game</td>
+      <td style={{ padding: "10px" }}>Final</td>
+    </tr>
+  </tbody>
+</table>
+
+{/* Optional: quick back link */}
+<div style={{ marginTop: "-0.5rem", marginBottom: "2rem" }}>
+  <a href="#schedule" style={{ color: "#7BAFD4", textDecoration: "none", fontWeight: 600 }}>Back to Schedule ↑</a>
+</div>
+
       
  <section id="roster">
   <h2 style={{ color: "#7BAFD4" }}>Team Roster</h2>
