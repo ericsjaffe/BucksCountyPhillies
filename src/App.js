@@ -176,9 +176,9 @@ export default function App() {
       <td style={{ padding: "10px" }} rowSpan={2}>Thu, Aug 28<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play</span></td>
       <td style={{ padding: "10px" }}>6:00 PM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/ghost.png`} alt="Ghost PA" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/ghost.jpg`} alt="Ghost PA" style={{ width: "22px" }}/>
         Ghost PA vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/centercourt.png`} alt="Centercourt" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/centercourt.jpg`} alt="Centercourt" style={{ width: "22px" }}/>
         Centercourt Baseball
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -186,9 +186,9 @@ export default function App() {
     <tr style={{ backgroundColor: "#f8fafc" }}>
       <td style={{ padding: "10px" }}>8:15 PM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/wildbc.png`} alt="Wild BC" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/wildbc.jpg`} alt="Wild BC" style={{ width: "22px" }}/>
         Wild BC vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/newegypt.png`} alt="New Egypt" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/newegypt.jpg`} alt="New Egypt" style={{ width: "22px" }}/>
         New Egypt Warriors
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -199,9 +199,9 @@ export default function App() {
       <td style={{ padding: "10px" }} rowSpan={2}>Fri, Aug 29<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play</span></td>
       <td style={{ padding: "10px" }}>6:00 PM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/bcp.png`} alt="BCP" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/bcp.jpg`} alt="BCP" style={{ width: "22px" }}/>
         Bucks County Phillies vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/yardley.png`} alt="Yardley" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/yardley.jpg`} alt="Yardley" style={{ width: "22px" }}/>
         Yardley/Makefield Riversharks
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -217,9 +217,9 @@ export default function App() {
       <td style={{ padding: "10px" }} rowSpan={4}>Sat, Aug 30<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool</span></td>
       <td style={{ padding: "10px" }}>10:00 AM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/ghost.png`} alt="Ghost PA" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/ghost.jpg`} alt="Ghost PA" style={{ width: "22px" }}/>
         Ghost PA vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/manto.png`} alt="Manto" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/manto.jpg`} alt="Manto" style={{ width: "22px" }}/>
         Manto PDC
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -227,9 +227,9 @@ export default function App() {
     <tr style={{ backgroundColor: "#f8fafc" }}>
       <td style={{ padding: "10px" }}>12:15 PM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/centercourt.png`} alt="Centercourt" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/centercourt.jpg`} alt="Centercourt" style={{ width: "22px" }}/>
         Centercourt Baseball vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/manto.png`} alt="Manto" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/manto.jpg`} alt="Manto" style={{ width: "22px" }}/>
         Manto PDC
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -237,9 +237,9 @@ export default function App() {
     <tr style={{ backgroundColor: "#f8fafc" }}>
       <td style={{ padding: "10px" }}>2:30 PM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/yardley.png`} alt="Yardley" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/yardley.jpg`} alt="Yardley" style={{ width: "22px" }}/>
         Yardley Riversharks vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/wildbc.png`} alt="Wild BC" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/wildbc.jpg`} alt="Wild BC" style={{ width: "22px" }}/>
         Wild BC
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -247,9 +247,9 @@ export default function App() {
     <tr style={{ backgroundColor: "#f8fafc" }}>
       <td style={{ padding: "10px" }}>4:45 PM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
-        <img src={`${process.env.PUBLIC_URL}/logos/newegypt.png`} alt="New Egypt" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/newegypt.jpg`} alt="New Egypt" style={{ width: "22px" }}/>
         New Egypt Warriors vs.
-        <img src={`${process.env.PUBLIC_URL}/logos/bcp.png`} alt="BCP" style={{ width: "22px" }}/>
+        <img src={`${process.env.PUBLIC_URL}/logos/bcp.jpg`} alt="BCP" style={{ width: "22px" }}/>
         Bucks County Phillies
       </td>
       <td style={{ padding: "10px" }}>Pool</td>
