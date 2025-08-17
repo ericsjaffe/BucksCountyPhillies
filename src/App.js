@@ -173,7 +173,7 @@ export default function App() {
   <tbody>
     {/* Thursday */}
     <tr style={{ backgroundColor: "#f8fafc" }}>
-      <td style={{ padding: "10px" }} rowSpan={2}>Thu, Aug 28<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play (No BCP games)</span></td>
+      <td style={{ padding: "10px" }} rowSpan={2}>Thu, Aug 28<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play </span></td>
       <td style={{ padding: "10px" }}>6:00 PM</td>
       <td style={{ padding: "10px" }}>Ghost PA vs. Centercourt Baseball</td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -199,7 +199,7 @@ export default function App() {
 
     {/* Saturday */}
     <tr style={{ backgroundColor: "#f8fafc" }}>
-      <td style={{ padding: "10px" }} rowSpan={4}>Sat, Aug 30<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool (first game 10:00 AM)</span></td>
+      <td style={{ padding: "10px" }} rowSpan={4}>Sat, Aug 30<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool </span></td>
       <td style={{ padding: "10px" }}>10:00 AM</td>
       <td style={{ padding: "10px" }}>Ghost PA vs. Manto PDC</td>
       <td style={{ padding: "10px" }}>Pool</td>
@@ -222,7 +222,7 @@ export default function App() {
 
     {/* Sunday */}
     <tr>
-      <td style={{ padding: "10px" }} rowSpan={6}>Sun, Aug 31<br/><span style={{ fontSize: 12, color: "#64748b" }}>Elimination (first game 9:00 AM)</span></td>
+      <td style={{ padding: "10px" }} rowSpan={6}>Sun, Aug 31<br/><span style={{ fontSize: 12, color: "#64748b" }}>Elimination </span></td>
       <td style={{ padding: "10px" }}>9:00 AM</td>
       <td style={{ padding: "10px" }}>Quarterfinal A: #2 Seed vs. #7 Seed</td>
       <td style={{ padding: "10px" }}>Quarterfinal</td>
