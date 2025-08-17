@@ -211,7 +211,7 @@ export default function App() {
   <td style={{ padding: "10px" }}>8:00 PM</td>
   <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
     <img 
-      src={`${process.env.PUBLIC_URL}/logos/yards.png`} 
+      src={`${process.env.PUBLIC_URL}/logos/yards.jpg`} 
       alt="The Yards at Full Depth" 
       style={{ width: "26px", borderRadius: "4px" }}
     />
