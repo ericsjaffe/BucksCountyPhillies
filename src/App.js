@@ -214,7 +214,7 @@ export default function App() {
 
     {/* Saturday */}
     <tr style={{ backgroundColor: "#f8fafc" }}>
-      <td style={{ padding: "10px" }} rowSpan={4}>Sat, Aug 30<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool</span></td>
+      <td style={{ padding: "10px" }} rowSpan={4}>Sat, Aug 30<br/><span style={{ fontSize: 12, color: "#64748b" }}>Pool Play</span></td>
       <td style={{ padding: "10px" }}>10:00 AM</td>
       <td style={{ padding: "10px", display: "flex", alignItems: "center", gap: "8px" }}>
         <img src={`${process.env.PUBLIC_URL}/logos/ghost.jpg`} alt="Ghost PA" style={{ width: "22px" }}/>
